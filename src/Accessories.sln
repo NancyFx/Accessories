@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Empty.Web.Application.Template", "Nancy.Empty.Web.Application.Template\Nancy.Empty.Web.Application.Template.csproj", "{56E9C74E-8F61-40DB-96BA-2E6C8E627F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Empty.Web.Application.Template.Package", "Nancy.Empty.Web.Application.Template.Package\Nancy.Empty.Web.Application.Template.Package.csproj", "{3E3AB053-71AB-495E-BA85-4393034C1404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{56E9C74E-8F61-40DB-96BA-2E6C8E627F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E9C74E-8F61-40DB-96BA-2E6C8E627F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E9C74E-8F61-40DB-96BA-2E6C8E627F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3AB053-71AB-495E-BA85-4393034C1404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3AB053-71AB-495E-BA85-4393034C1404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3AB053-71AB-495E-BA85-4393034C1404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3AB053-71AB-495E-BA85-4393034C1404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
