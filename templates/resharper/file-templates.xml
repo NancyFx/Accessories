@@ -1,0 +1,36 @@
+<TemplatesExport family="File Templates">
+  <Template uid="4f7e98c3-2e25-41bf-95db-7d60048cbb42" shortcut="" description="Nancy Module" text="namespace $NAMESPACE$&#xD;&#xA;{&#xD;&#xA;  using Nancy;&#xD;&#xA;&#xD;&#xA;  public class $CLASS$ : NancyModule&#xD;&#xA;  {&#xD;&#xA;    public $CLASS$() {$END$}&#xD;&#xA;  }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <ProjectLanguageContext language="CSharp" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="NAMESPACE" expression="fileDefaultNamespace()" initialRange="-1" />
+      <Variable name="CLASS" expression="getFileNameWithoutExtension()" initialRange="0" />
+    </Variables>
+    <CustomProperties>
+      <Property key="FileName" value="MyNancyModule" />
+      <Property key="Extension" value="cs" />
+      <Property key="ValidateFileName" value="False" />
+    </CustomProperties>
+  </Template>
+  <Template uid="71c2d4e1-d619-4800-a585-7ebff0409651" shortcut="" description="Nancy Test Fixture" text="namespace $NAMESPACE$&#xD;&#xA;{&#xD;&#xA;  using Nancy;&#xD;&#xA;  using FakeItEasy;&#xD;&#xA;  using Xunit;&#xD;&#xA;&#xD;&#xA;  public class $CLASS$&#xD;&#xA;  {&#xD;&#xA;    public $CLASS$()&#xD;&#xA;	{&#xD;&#xA;	}&#xD;&#xA;    &#xD;&#xA;	$END$&#xD;&#xA;  }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <ProjectLanguageContext language="CSharp" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="NAMESPACE" expression="fileDefaultNamespace()" initialRange="-1" />
+      <Variable name="CLASS" expression="getFileNameWithoutExtension()" initialRange="0" />
+    </Variables>
+    <CustomProperties>
+      <Property key="FileName" value="NancyFixture" />
+      <Property key="Extension" value="cs" />
+      <Property key="ValidateFileName" value="False" />
+    </CustomProperties>
+  </Template>
+</TemplatesExport>

@@ -1,0 +1,50 @@
+<TemplatesExport family="Live Templates">
+  <Template uid="7b7a2d69-5680-4ff0-bd8c-2d184259cd81" shortcut="ndelete" description="Adds a Nancy Delete-handler" text="Delete[&quot;/$PATH$&quot;] = parameters =&gt; {&#xD;&#xA;   throw new NotImplementedException();$END$&#xD;&#xA;};" reformat="False" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="PATH" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="3671df95-c6a2-4418-888e-830abd15ebab" shortcut="nget" description="Adds a Nancy Get-handler" text="Get[&quot;/$PATH$&quot;] = parameters =&gt; {&#xD;&#xA;   throw new NotImplementedException();$END$&#xD;&#xA;};" reformat="False" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="PATH" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="703d2db8-5732-4c5d-84b9-2217083298c8" shortcut="npost" description="Adds a Nancy Post-handler" text="Post[&quot;/$PATH$&quot;] = parameters =&gt; {&#xD;&#xA;   throw new NotImplementedException();$END$&#xD;&#xA;};" reformat="False" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="PATH" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="eeacaf68-f39f-4d46-ac0d-804ca33012a8" shortcut="nput" description="Adds a Nancy Put-handler" text="Put[&quot;/$PATH$&quot;] = parameters =&gt; {&#xD;&#xA;   throw new NotImplementedException();$END$&#xD;&#xA;};" reformat="False" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories>
+      <Category name="Nancy" />
+    </Categories>
+    <Variables>
+      <Variable name="PATH" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
